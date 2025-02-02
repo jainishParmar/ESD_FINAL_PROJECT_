@@ -48,35 +48,35 @@ services:
 #        - eureka-service
 #      restart: unless-stopped
 #
-#    postgresql:
-#      container_name: ms_pg_sql
-#      image: postgres
-#      environment:
-#        POSTGRES_USER: speproject
-#        POSTGRES_PASSWORD: speproject
-#        PGDATA: /data/postgres
-#      volumes:
-#        - postgres:/data/postgres
-#      ports:
-#        - "5430:5432"
-#      networks:
-#        - microservices-net
-#      restart: unless-stopped
-#
-#    pgadmin:
-#      container_name: ms_pgadmin
-#      image: dpage/pgadmin4
-#      environment:
-#        PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
-#        PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
-#        PGADMIN_CONFIG_SERVER_MODE: 'False'
-#      volumes:
-#        - pgadmin:/var/lib/pgadmin
-#      ports:
-#        - "5050:80"
-#      networks:
-#        - microservices-net
-#      restart: unless-stopped
+  postgresql:
+    container_name: ms_pg_sql
+    image: postgres
+    environment:
+      POSTGRES_USER: speproject
+      POSTGRES_PASSWORD: speproject
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5430:5432"
+    networks:
+      - microservices-net
+    restart: unless-stopped
+
+  pgadmin:
+    container_name: ms_pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    networks:
+      - microservices-net
+    restart: unless-stopped
 
 
   zookeeper:

@@ -5,39 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b38222-66aa-4375-93e2-fd42074471e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eureka_Server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/EmailTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/HostelConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/UserJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/resources/templates/hostel-allocation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/resources/templates/hostel-vacant.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_hostel_service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/EmailProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/HostelConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/KafkaHostelTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/UserJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esd_user_service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka_Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esd_hostel_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/HostelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/HostelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esd_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_user_service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +208,7 @@
       <workItem from="1738486105337" duration="1320000" />
       <workItem from="1738488477939" duration="7112000" />
       <workItem from="1738497377234" duration="449000" />
+      <workItem from="1738499240976" duration="2325000" />
     </task>
     <servers />
   </component>
