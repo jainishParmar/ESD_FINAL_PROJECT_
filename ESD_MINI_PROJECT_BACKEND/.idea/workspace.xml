@@ -5,20 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b38222-66aa-4375-93e2-fd42074471e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/EmailTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/HostelConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/NotificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/java/org/example/esdemailservice/notification/UserJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/resources/templates/hostel-allocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd-email-service/src/main/resources/templates/hostel-vacant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_hostel_service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/EmailProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/HostelConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/KafkaHostelTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/config/UserJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esd_user_service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/controller/HostelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/controller/HostelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/config/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Auth/Signin/SigninForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Auth/Signin/SigninForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Auth/Signup/SignupForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Auth/Signup/SignupForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Navbar/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ESD_MINI_PROJECT_FRONTEND/fronend/src/Components/Navbar/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka_Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka_Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/HostelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/HostelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/java/com/example/esd_hostel_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_hostel_service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_hostel_service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esd_user_service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/esd_user_service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Dockerfile" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -65,25 +87,43 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EsdEmailServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.EsdHostelServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.EsdUserServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.TaskServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/jainish-parmar/part2/ESD/ESD_FINAL_PROJECT/ESD_MINI_PROJECT_BACKEND&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/jainish-parmar/part2/term1/ESD/ESD_FINAL_PROJECT/ESD_MINI_PROJECT_BACKEND/config-server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/esd_user_service" />
       <recent name="$PROJECT_DIR$/esd_user_service/src/main/java/com/example/esd_user_service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.esdemailservice.notification" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,6 +137,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsdEmailServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="esd-email-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.esdemailservice.EsdEmailServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EsdHostelServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="esd_hostel_service" />
@@ -129,6 +183,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EsdEmailServiceApplication" />
       <item itemvalue="Spring Boot.EsdHostelServiceApplication" />
       <item itemvalue="Spring Boot.EsdUserServiceApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
@@ -138,8 +194,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -168,6 +224,17 @@
       <workItem from="1732683056899" duration="1625000" />
       <workItem from="1732685055300" duration="1699000" />
       <workItem from="1732688364234" duration="2463000" />
+      <workItem from="1738037544576" duration="16404000" />
+      <workItem from="1738130403448" duration="1463000" />
+      <workItem from="1738155136623" duration="6281000" />
+      <workItem from="1738168683392" duration="9000" />
+      <workItem from="1738413716983" duration="3224000" />
+      <workItem from="1738426298513" duration="4130000" />
+      <workItem from="1738431502085" duration="3846000" />
+      <workItem from="1738470148476" duration="9563000" />
+      <workItem from="1738486105337" duration="1320000" />
+      <workItem from="1738488477939" duration="7112000" />
+      <workItem from="1738497377234" duration="449000" />
     </task>
     <servers />
   </component>

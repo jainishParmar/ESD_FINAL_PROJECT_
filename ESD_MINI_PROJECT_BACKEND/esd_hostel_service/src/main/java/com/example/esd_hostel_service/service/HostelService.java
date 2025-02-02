@@ -1,11 +1,14 @@
 package com.example.esd_hostel_service.service;
 
 
+import com.example.esd_hostel_service.config.EmailProducer;
+import com.example.esd_hostel_service.config.HostelConfirmation;
 import com.example.esd_hostel_service.exception.StudentAllreadyAllocated;
 import com.example.esd_hostel_service.exception.StudentDoesNotExists;
 import com.example.esd_hostel_service.model.Hostel;
 import com.example.esd_hostel_service.model.Student;
 import com.example.esd_hostel_service.repo.HostelRepo;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,6 +27,10 @@ public class HostelService {
 
     @Autowired
     private StudentService studentService;
+
+    @Autowired
+    private EmailProducer emailProducer;
+
 
     public  ResponseEntity<?> getHostelsRoomsById(int id) throws Exception {
             Hostel hostel = hostelRepo.findById(id).get();
@@ -165,24 +172,30 @@ public class HostelService {
 
     public ResponseEntity<?> allocate_rooms(Hostel hostel) throws  Exception{
 
-            List<Student>students=studentService.get_all_students();
-            if(!students.contains(hostel.getStudent())){
+
+            Student st= studentService.FindStudentByID(hostel.getStudent().getStudentId());
+            if(st==null){
                 throw new StudentDoesNotExists("Student Does Not Exists..");
             }
-
+            hostel.setStudent(st);
             Hostel hs=hostelRepo.findBystudent(hostel.getStudent());
             if(hs!=null){
                 throw new StudentAllreadyAllocated("Student already allocated room");
             }
             hostel=hostelRepo.save(hostel);
+            emailProducer.sendHostelAllocationService(new HostelConfirmation(hostel.getId(),hostel.getName(),hostel.getFloor(),hostel.getRoomNumber(),hostel.getStudent()));
             return  new ResponseEntity<>(hostel,HttpStatus.OK);
 
 
     }
 
-    public ResponseEntity<?> vacant_room(Hostel hostel){
+    public ResponseEntity<?> vacant_room(Hostel hostel) throws Exception {
+        Student st=studentService.FindStudentByID(hostel.getStudent().getStudentId());
         hostel.setStudent(null);
         hostel=hostelRepo.save(hostel);
+
+
+        emailProducer.sendHostelVacantService(new HostelConfirmation(hostel.getId(),hostel.getName(),hostel.getFloor(),hostel.getRoomNumber(),st));
         return new ResponseEntity<>(hostel, HttpStatus.OK);
     }
 

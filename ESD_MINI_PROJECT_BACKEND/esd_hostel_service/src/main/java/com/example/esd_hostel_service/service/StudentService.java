@@ -26,11 +26,18 @@ public class StudentService {
 
     public List<Student> get_all_students() throws  Exception{
         try{
-
             return studentRepo.findAll();
         }catch (Exception e){
             throw new Exception("error while getting data");
         }
 
+    }
+
+    public Student FindStudentByID(String id) throws  Exception{
+        try{
+            return studentRepo.findById(id).orElse(null);
+        }catch (Exception e){
+            throw new Exception("error while getting data");
+        }
     }
 }

@@ -18,4 +18,5 @@ public class Student {
 
     @Id
     private String studentId;
+    private String email;
 }
