@@ -67,10 +67,20 @@ const Card = ({ room_info }) => {
   }
 
   const handleVacant = () => {
+    const existing_data={
+      "id":formData.id,
+      "name":formData.name,
+      "floor":formData.floor,
+      "roomNumber":formData.roomNumber,
+      "student":{
+        "studentId":formData.studentId,
+        "email":null
+      }
+    }
     dispatch(
       vacant({
         j: localStorage.getItem('jwt'),
-        hostel_data: formData
+        hostel_data: existing_data
       })
     )
     handleClose()
@@ -82,7 +92,8 @@ const Card = ({ room_info }) => {
       "floor":formData.floor,
       "roomNumber":formData.roomNumber,
       "student":{
-        "studentId":formData.studentId
+        "studentId":formData.studentId,
+        "email":null
       }
     }
     dispatch(update({ 
